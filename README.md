@@ -1,6 +1,8 @@
 # Attendify
 Online attendance tracking system | Build 14
 
+## 2nd semester update, need palitan schedule sa database, teachers, etc.
+
 ![image](https://github.com/user-attachments/assets/230d74c1-06d4-40a6-9402-c91e194d3382)
 
 
