@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div>
+        <p id="full_name"></p>
+        <small id="role"></small>
+      </div>
+      <nav>
+        <a href="/logout">Logout</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="blockquote">
+          <h3>Super Admin</h3>
+          <small>This area is still in the making!</small>
+        </div>
+      </section>
+
+      <section>
+        <h3>Access Control Point</h3>
+        <p>Manage and modify the Attendify3 database schema.</p>
+      </section>
+
+      <section>
+        <h3>SQL Documentation</h3>
+        <p>Attendify uses MySQL architecture. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi enim amet aperiam, iure neque fuga? Voluptatem, eveniet impedit nam earum sint maxime debitis maiores saepe omnis odio autem rerum dicta.</p>
+        <div class="blockquote">
+          <small>Do not modify or alter any columns and its ENUMs</small>
+        </div>
+      </section>
+
+      <section>
+        <h3>Edit User</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Role</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>Register User</h3>
+        <form action="">
+          <input type="text" name="full_name" id="" placeholder="Full Name">
+          <input type="text" name="username" id="" placeholder="Username">
+          <select name="role" id="" title="role">
+            <option value="student">Teacher</option>
+            <option value="student">Guard</option>
+            <option value="student">Student</option>
+          </select>
+          <input type="text" name="password" id="" placeholder="Password">
+          <div class="blockquote">
+            <small>Ensure that the password is long and secure against data breach. Do not use the same password for multiple accounts.</small>
+          </div>
+          <hr>
+          <small>For registering students</small>
+          <input type="text" name="rfid" id="" placeholder="Assigned RFID, Refer to the assigned physical ID">
+          <input type="text" name="grade_section" id="" placeholder="Student Grade & Section">
+          <input type="submit" value="Register">
+        </form>
+      </section>
+
+      <section>
+        <h3>General API Routes</h3>
+      </section>
+
+      <section>
+        <h3>Calibrate Express Routes</h3>
+      </section>
+    </main>
+    <footer>
+      <small>&copy; 2024 Attendify. All rights reserved.</small>
+    </footer>
+
+    <script src="admin.js"></script>
+  </body>  
+</html>

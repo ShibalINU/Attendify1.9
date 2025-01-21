@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p id="full_name"></p>
+      <small id="role"></small>
+    </div>
+    <nav>
+      <a href="/logout">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- <section>
+      <div class="blockquote">
+        <h3>Attendify has a new look!</h3>
+        <p>We've refactored every code from the ground up, ensuring efficiency, and visually appealing.</p>
+      </div>
+    </section> -->
+
+    <section>
+      <iframe src="https://flocus.com/online-flip-clock/" title="flipclock" frameborder="0"></iframe>
+    </section>
+
+    <section>
+      <h2>Ongoing</h2>
+      <div id="classInfo"></div>
+      <div class="table-container">
+        <table id="ongoingTable">
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>Status</th>
+              <th>Time In</th>
+              <th>Time Out</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows dynamically populated here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Monthly Attendance Overview</h2>
+      <div class="table-container">
+        <table id="attendanceTable">
+          <thead>
+            <tr id="attendanceHeader">
+              <th>Student Name</th>
+              <!-- Dynamic day headers will be added here -->
+            </tr>
+          </thead>
+          <tbody id="attendanceBody">
+            <!-- Dynamic rows for each student will be added here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Weekly Schedule</h2>
+      <div class="table-container">
+        <table id="scheduleTable">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Level & Section</th>
+              <th>Subject</th>
+              <th>Start</th>
+              <th>End</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Content will be populated here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Export Data</h2>
+      <p>Select on the following incharged classes to download a copy of attendance</p>
+      <ul id="subjectList"></ul>
+    </section>
+  </main>
+  
+  <footer>
+    <small>&copy; 2024 Attendify. All rights reserved.</small>
+  </footer>
+
+  <script src="teacher.js"></script>
+</body>
+
+</html>
+
