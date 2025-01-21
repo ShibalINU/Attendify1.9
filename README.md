@@ -1,5 +1,8 @@
 # Attendify
-Build 14
+Online attendance tracking system | Build 14
+
+![image](https://github.com/user-attachments/assets/230d74c1-06d4-40a6-9402-c91e194d3382)
+
 
 ### What you need
 - mysql 8.4
@@ -20,6 +23,7 @@ Build 14
   }
 }
 ```
+nodemon is optinal but i highly recommend
 
 ### Database Information
 attendify3.sql
@@ -61,3 +65,9 @@ use `describe [table]` to show its parts, just use chatgpt it can explain the da
 ✔ monthly attendance table shows past attendance of students to the subject for the current month (slight bugs may occur), it uses `attendance-archive` table
 
 ✔ ability to export student attendance per subject (powered by excel.js)
+
+✔ weekly schedule for teachers
+
+---
+
+was taking too long to work on this laptop is heavily damaged :(
