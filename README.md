@@ -1,6 +1,26 @@
 # Attendify
 Build 14
 
+### What you need
+- mysql 8.4
+- vscode
+- node.js
+- dependencies
+  
+### Dependencies used as of jan 21 2025
+```
+{
+  "dependencies": {
+    "chokidar": "^4.0.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7"
+  }
+}
+```
+
 ### Database Information
 attendify3.sql
 tables:
@@ -11,6 +31,8 @@ tables:
 use `describe [table]` to show its parts, just use chatgpt it can explain the database schema better than me.
 
 ### Current Limitations
+✖ some codes are purposely hardcoded especially time and date for testing, please consider checking the code before running, you might run into unexpected situtations, chatgpt has added console.logs everywhere so regularly check the console!
+
 ✖ automated texts not yet implemented
 
 ✖ scanning with chokidar temporarily removed for debugging, use `/mark-attendance` route to simulate scanning!
@@ -26,6 +48,8 @@ use `describe [table]` to show its parts, just use chatgpt it can explain the da
 ✖ documentation/how to/tutorial page not yet implemented
 
 ### What it can do
+✔ working log in system, you cannot sign up directly there. **so just view the password on mysql command line client: ->** `select * from users`
+
 ✔ added a cool clock widget i found for teachers
 
 ✔ dynamically show on going classes for teachers as well as lists of students
