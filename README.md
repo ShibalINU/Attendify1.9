@@ -68,6 +68,12 @@ use `describe [table]` to show its parts, just use chatgpt it can explain the da
 
 ✔ weekly schedule for teachers
 
+✔ responsive, tested for mobile devices
+
+### optional plans (if possible)
+- to get this into an android app, using android studio webkit
+- to get this into a desktop app, using electron
+  
 ---
 
 was taking too long to work on this laptop is heavily damaged :(
